@@ -170,6 +170,7 @@ Let's invoke the 'multiplyingFactory' function that will return another function
 
 // CODE HERE
 
+
 let timesFour = multiplyingFactory(7);
 
 
