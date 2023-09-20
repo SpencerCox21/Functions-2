@@ -179,7 +179,7 @@ uniq(names, (uniqArr) => console.log(`The new names array with all the duplicate
 function each(arr, callback8) {
   for (let i = 0; i < arr.length; i++){
     
-    callback8(arr[i], i);
+    callback8(i , arr[i]);
   }
 }
 
@@ -195,7 +195,7 @@ function each(arr, callback8) {
 
 // CODE HERE
 
-each(names, (index) => console.log(`The item at index ${index} is ${names}`)) 
+each(names, (index, name) => console.log(`The item at index ${index} is ${name}`)) 
 
 
 
